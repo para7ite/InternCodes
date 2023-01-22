@@ -1,0 +1,10 @@
+AccountId_TVCORE__c(Account ID) - Look Up to Account Master - refer to account ID. It is the primary account,AffiliatedAccountId_TVCORE__c(Account ID for Related Account) - Lookup to account Master,CreatedById(User) - LookUp to the User Master . If the user is not present then default to System userid,CreatedDate ( is this GMT timezone?),DistributorType_TVCORE__c,Id(Related Account Record ID),Name (SFDC reference ID of the record). Pleae store in Omni but hide the field,Relationship Type Type_TVCORE__c,,
+a1,a1,a1,a1,a1,a1,a1,a1,a1,a1
+a2,a2,a2,a2,a2,a2,a2,a2,a2,a2
+a3,a3,a3,a3,a3,a3,a3,a3,a3,a3
+a4,a4,a4,a4,a4,a4,a4,a4,a4,a4
+a5,a5,a5,a5,a5,a5,a5,a5,a5,a5
+a6,a6,a6,a6,a6,a6,a6,a6,a6,a6
+a7,a7,a7,a7,a7,a7,a7,a7,a7,a7
+a8,a8,a8,a8,a8,a8,a8,a8,a8,a8
+a9,a9,a9,a9,a9,a9,a9,a9,a9,a9

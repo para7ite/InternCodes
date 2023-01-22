@@ -1,0 +1,80 @@
+Entity Name Source,Attribute Name Source,Entity Name Omni,Attribute Name Omni
+Accounts,Account ID (Primary Key),Account,indskr_externalid
+Accounts,Account Name,Account,Name
+Accounts,Type,Account,indskr_accounttype
+Accounts,Sub Type,Account,omnijj_accountsubtype
+Accounts,External Id ((to be compared with exisitng Account master in Omni)),Account,accountnumber
+Accounts,Account Number (to be compared with exisitng Account master in Omni),Account,accountnumber
+Accounts,Match between column E and F),Account,GAP
+Accounts,Billing City,Account,omnijj_city
+Accounts,Billing State/Province,Account,omnijj_state
+Accounts,Parent Account ID (Look up to the account master),Account,parentaccountid
+Accounts,Phone,Account,telephone1
+Accounts,Account Email,Account,emailaddress1
+Accounts,Website,Account,websiteurl
+Accounts,No. Of Theatres,Account,GAP
+Accounts,No. of Beds,Account,indskr_noofbeds
+Accounts,No. of Cath Labs,Account,omnijj_cathlabnumber
+Accounts,Strategic Account Indicator (True or False),Account,GAP
+Accounts,Has ICU (True or False),Account,omnijj_hasicu
+Accounts,Has Emergency Dept. (True or False),Account,omnijj_hasemergencydepartment
+Accounts,Has Day Surgery (True or False),Account,omnijj_hasdaysurgery
+Accounts,Teaching Hospital (True or False),Account,GAP
+Accounts,Monthly MyShelf Support Hours,Account,GAP
+Accounts,Owner ID (default to system id),Account,ownerid
+Related Accounts,AccountId_TVCORE__c(Account ID) - Look Up to Account Master - refer to account ID. It is the primary account,indskr_accountaccountaffiliation,indskr_affiliatedtoaccountid
+Related Accounts,AffiliatedAccountId_TVCORE__c(Account ID for Related Account) - Lookup to account Master ,indskr_accountaccountaffiliation,indskr_affiliatedfromaccountid
+Related Accounts,CreatedById(User) - LookUp to the User Master . If the user is not present then default to System userid,indskr_accountaccountaffiliation,CreatedBy
+Related Accounts,CreatedDate ( is this GMT timezone?),indskr_accountaccountaffiliation,overridencreatedon
+Related Accounts,DistributorType_TVCORE__c,indskr_accountaccountaffiliation,GAP
+Related Accounts,Id(Related Account Record ID),indskr_accountaccountaffiliation,indskr_mdmid
+Related Accounts,Name (SFDC reference ID of the record). Pleae store in Omni but hide the field,indskr_accountaccountaffiliation,indskr_description
+Related Accounts,Relationship Type Type_TVCORE__c,indskr_accountaccountaffiliation,indskr_type
+Secondary Address,Account_TVCORE__c(Account ID) Lookup to the account master - refer to account ID ,indskr_indskr_customeraddress_v2,indskr_customer
+Secondary Address,City_TVCORE__c,indskr_address,indskr_city_lu
+Secondary Address,CompositeId_TVA__c ,indskr_address,indskr_externalid
+Secondary Address,Country_TVCORE__c,indskr_address,indskr_country_lu
+Secondary Address,CreatedById (user ID),indskr_address,createdby
+Secondary Address,CreatedDate,indskr_address,overriddencreatedon
+Secondary Address,Description_TVA__c,indskr_address,GAP
+Secondary Address,DisplayName_TVA__c,indskr_address,indskr_composite
+Secondary Address,ExternalId_TVCORE__c,indskr_address,GAP
+Secondary Address,Id(Account Secondar Address ID) - Salesforce reference ID of the record,indskr_indskr_customeraddress_v2,indskr_externalid
+Secondary Address,IsActive_TVCORE__c,indskr_indskr_customeraddress_v3,GAP
+Secondary Address,IsPrimaryFlag_TVCORE__c,indskr_indskr_customeraddress_v2,indskr_IsPrimary
+Secondary Address,LastModifiedById(user),indskr_indskr_customeraddress_v3,
+Secondary Address,LastModifiedDate,indskr_indskr_customeraddress_v4,
+Secondary Address,Mobile_TVA__c,indskr_indskr_customeraddress_v5,GAP
+Secondary Address,Name,indskr_address,indskr_name
+Secondary Address,PrimaryPhone_TVCORE__c,indskr_address,GAP
+Secondary Address,SecondaryPhone_TVCORE__c,indskr_address,GAP
+Secondary Address,ShipTo_TVA__c,indskr_indskr_customeraddress_v2,indskr_shipto
+Secondary Address,StateProvince_TVCORE__c,indskr_address,indskr_State_lu
+Secondary Address,Street_TVCORE__c,indskr_address,indskr_line1
+Secondary Address,SystemModstamp,indskr_address,
+Secondary Address,Type_TVCORE__c,indskr_address,GAP
+Secondary Address,ZipPostalCode_TVCORE__c,indskr_address,indskr_postalcode_lu
+Contacts,Contact ID,Contact,Indskr_externalid
+Contacts,Salutation,Contact,indskr_title
+Contacts,First Name,Contact,firstname
+Contacts,Last Name,Contact,lastname
+Contacts,Title,Contact,GAP
+Contacts,Account Name,Contact,Name
+Contacts,Account ID (Look up to Account ID in Account Master),Contact,indskr_primaryaccount
+Contacts,Mailing City,Contact,GAP
+Contacts,Mailing State/Province,Contact,GAP
+Contacts,Work Phone,Contact,telephone1
+Contacts,Mobile,Contact,mobilephone
+Contacts,Email,Contact,EMailAddress1
+Contacts,Contact Specialty,Contact,indskr_lu_specialtyid
+Contacts,Contact Owner,Contact,OwnerId
+Contacts,Academic Qualificaitons,Contact,omnijj_academictitle
+Contacts,Department,Contact,omnijj_hospitaldepartment
+Contacts,Career Stage,Contact,omnijj_careerstage
+Contacts,Years of Experience,Contact,GAP
+Contacts,HCP's consent to send email,Contact,omnijj_hcpsconsenttosendemail
+Contacts,I Accept The Privacy Policy,Contact,omnijj_privacypolicy
+Contacts,I Accept the Terms and Conditions,Contact,omnijj_termsandconditions
+Contacts,HCP Classification,Contact,omnijj_hcpclassification
+Contacts,I opt in to receive surveys,Contact,omnijj_receivesurveys
+Contacts,HCP Faculty,Contact,omnijj_hcpfaculty

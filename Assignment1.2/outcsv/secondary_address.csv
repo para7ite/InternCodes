@@ -1,0 +1,11 @@
+Account_TVCORE__c(Account ID) Lookup to the account master - refer to account ID,City_TVCORE__c,CompositeId_TVA__c,Country_TVCORE__c,CreatedById (user ID),CreatedDate,Description_TVA__c,DisplayName_TVA__c,ExternalId_TVCORE__c,Id(Account Secondar Address ID) - Salesforce reference ID of the record,IsActive_TVCORE__c,IsPrimaryFlag_TVCORE__c,LastModifiedById(user),LastModifiedDate,Mobile_TVA__c,Name,PrimaryPhone_TVCORE__c,SecondaryPhone_TVCORE__c,ShipTo_TVA__c,StateProvince_TVCORE__c,Street_TVCORE__c,SystemModstamp,Type_TVCORE__c,ZipPostalCode_TVCORE__c
+a1,b1,c1,a1,b1,c1,a1,b1,c1,a1,b1,c1,a1,b1,c1,a1,b1,c1,a1,b1,c1,a1,b1,c1
+a2,b2,c2,a2,b2,c2,a2,b2,c2,a2,b2,c2,a2,b2,c2,a2,b2,c2,a2,b2,c2,a2,b2,c2
+a3,b3,c3,a3,b3,c3,a3,b3,c3,a3,b3,c3,a3,b3,c3,a3,b3,c3,a3,b3,c3,a3,b3,c3
+a4,b4,c4,a4,b4,c4,a4,b4,c4,a4,b4,c4,a4,b4,c4,a4,b4,c4,a4,b4,c4,a4,b4,c4
+a5,b5,c5,a5,b5,c5,a5,b5,c5,a5,b5,c5,a5,b5,c5,a5,b5,c5,a5,b5,c5,a5,b5,c5
+a6,b6,c6,a6,b6,c6,a6,b6,c6,a6,b6,c6,a6,b6,c6,a6,b6,c6,a6,b6,c6,a6,b6,c6
+a7,b7,c7,a7,b7,c7,a7,b7,c7,a7,b7,c7,a7,b7,c7,a7,b7,c7,a7,b7,c7,a7,b7,c7
+a8,b8,c8,a8,b8,c8,a8,b8,c8,a8,b8,c8,a8,b8,c8,a8,b8,c8,a8,b8,c8,a8,b8,c8
+a9,b9,c9,a9,b9,c9,a9,b9,c9,a9,b9,c9,a9,b9,c9,a9,b9,c9,a9,b9,c9,a9,b9,c9
+a10,b10,c10,a11,b11,c11,a12,b12,c12,a13,b13,c13,a14,b14,c14,a15,b15,c15,a16,b16,c16,a17,b17,c17
